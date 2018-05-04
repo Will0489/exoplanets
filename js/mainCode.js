@@ -126,17 +126,17 @@ d3.select("svg")
 var introText = svg.append("g").attr("class", "introWrapper");
 					//.attr("transform", "translate(" + -x/2 + "," + -y/2 + ")");
 //Title				
-var Title = introText.append("text")
+/*var Title = introText.append("text")
 	.attr("class", "title")
 	.attr("x", 10 + "px")
 	.attr("y", 10 + "px")
 	.attr("dy", "1em")
 	.style("fill","white")
 	.attr("opacity", 1)
-	.text("EXOPLANETS");
+	.text("EXOPLANETS");*/
 	
 //Intro text	
-var TextIntro = introText.append("text")
+/*var TextIntro = introText.append("text")
 	.attr("class", "intro")
 	.attr("x", 10 + "px")
 	.attr("y", 40 + "px")
@@ -148,21 +148,21 @@ var TextIntro = introText.append("text")
 		  "we might know enough of the exoplanet to simulate its orbit. " +
 		  "Here you can see 288 exoplanets from exoplanets.org for which we know the eccentricity and " +
 		  "semi-major axis of the orbit, radius of the planet and (effective) temperature of the star which it orbits")
-	.call(wrap, 300);
+	.call(wrap, 300);*/
 
 
 //The explanation text during the introduction
-var TextTop = container.append("text")
+/*var TextTop = container.append("text")
 	.attr("class", "explanation")
 	.attr("x", 0 + "px")
 	.attr("y", -70 + "px")
 	.attr("dy", "1em")
 	.style("fill","white")
 	.attr("opacity", 0)
-	.text("");   
+	.text("");*/
 	
 //Create the legend
-createLegend();
+//createLegend();
 
 //Initiate the progress Circle
 var arc = d3.svg.arc()

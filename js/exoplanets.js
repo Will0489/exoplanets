@@ -1,4 +1,4 @@
-var planets = [
+/*var planets = [
 { "major":110.3079, "minor":109.850220659647, "e":0.091, "focus":10.0380189000001, "r":120.3459189, "cx":10.0380189000001, "cy":0, "x":120.3459189, "y":0, "theta": 0, "ID":2, "Radius":1.281, "period":2.243752, "speed":308.8955, "name":"WASP-14 b", "discovered":2009, "class":"F", "temp":6475},
 { "major":136.1112, "minor":136.1112, "e":0, "focus":0, "r":136.1112, "cx":0, "cy":0, "x":136.1112, "y":0, "theta": 0, "ID":5, "Radius":0.170247, "period":3.6961219, "speed":231.3809, "name":"Kepler-20 b", "discovered":2011, "class":"F", "temp":5466},
 { "major":119.8464, "minor":119.8464, "e":0, "focus":0, "r":119.8464, "cx":0, "cy":0, "x":119.8464, "y":0, "theta": 0, "ID":6, "Radius":1.02, "period":3.039577, "speed":247.7375, "name":"HAT-P-27 b", "discovered":2011, "class":"G", "temp":5190},
@@ -287,4 +287,13 @@ var planets = [
 { "major":152.5953, "minor":152.5953, "e":0, "focus":0, "r":152.5953, "cx":0, "cy":0, "x":152.5953, "y":0, "theta": 0, "ID":1491, "Radius":1.03, "period":4.1877537, "speed":228.9496, "name":"XO-5 b", "discovered":2008, "class":"F", "temp":5510},
 { "major":116.4756, "minor":116.4756, "e":0, "focus":0, "r":116.4756, "cx":0, "cy":0, "x":116.4756, "y":0, "theta": 0, "ID":1492, "Radius":0.899, "period":2.899703, "speed":252.3837, "name":"HAT-P-3 b", "discovered":2007, "class":"G", "temp":5185},
 { "major":165.4101, "minor":165.4101, "e":0, "focus":0, "r":165.4101, "cx":0, "cy":0, "x":165.4101, "y":0, "theta": 0, "ID":1499, "Radius":0.041927, "period":5.28696, "speed":196.5784, "name":"Kepler-102 b", "discovered":2014, "class":"G", "temp":4903}
+];*/
+
+var planets = [
+    { "major":136.9761, "minor":136.914446879925, "e":0.03, "focus":4.10928300000036, "r":141.085383, "cx":4.10928300000036, "cy":0, "x":141.085383, "y":0, "theta": 0, "ID":1474, "Radius":0.792, "period":3.922727, "speed":219.4, "name":"Mobiele Maandag", "discovered":2018, "class":"G", "temp":4800},
+    { "major":154.0551, "minor":154.0551, "e":0, "focus":0, "r":154.0551, "cx":0, "cy":0, "x":154.0551, "y":0, "theta": 0, "ID":1475, "Radius":1.13, "period":3.9791, "speed":243.2602, "name":"Vitalinea", "discovered":2016, "class":"F", "temp":5924},
+    { "major":203.2293, "minor":203.2293, "e":0, "focus":0, "r":203.2293, "cx":0, "cy":0, "x":203.2293, "y":0, "theta": 0, "ID":1483, "Radius":0.155094, "period":5.66793, "speed":225.2899, "name":"Mora", "discovered":2018, "class":"F", "temp":5904},
+    { "major":115.5609, "minor":115.5609, "e":0, "focus":0, "r":115.5609, "cx":0, "cy":0, "x":115.5609, "y":0, "theta": 0, "ID":1490, "Radius":1.516, "period":2.5199449, "speed":288.1375, "name":"100Masters", "discovered":2016, "class":"F", "temp":6110},
+    { "major":152.5953, "minor":152.5953, "e":0, "focus":0, "r":152.5953, "cx":0, "cy":0, "x":152.5953, "y":0, "theta": 0, "ID":1491, "Radius":1.03, "period":4.1877537, "speed":228.9496, "name":"Ufinity", "discovered":2017, "class":"F", "temp":5510},
+    { "major":116.4756, "minor":116.4756, "e":0, "focus":0, "r":116.4756, "cx":0, "cy":0, "x":116.4756, "y":0, "theta": 0, "ID":1492, "Radius":0.899, "period":2.899703, "speed":252.3837, "name":"SN Brussels Airlines 15 year anniversary", "discovered":2017, "class":"G", "temp":5185},
 ];

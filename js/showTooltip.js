@@ -50,10 +50,10 @@
 		
 			//Change the texts inside the tooltip
 			d3.select("#tooltip .tooltip-planet").text(d.name);
-			d3.select("#tooltip .tooltip-year").html("Discovered in: " + d.discovered);
+			d3.select("#tooltip .tooltip-year").html("Launched in: " + d.discovered);
 			//d3.select("#tooltip-class").html("Temperature of star: " + d.temp + " Kelvin");
-			d3.select("#tooltip-period").html("Orbital period: " + formatSI(d.period) + " days");
-			d3.select("#tooltip-eccen").html("Eccentricity of orbit: " + d.e);
-			d3.select("#tooltip-radius").html("Radius of planet: " + formatSI(d.Radius * 11.209 ) + " Earth radii");
-			d3.select("#tooltip-dist").html("Approx. distance to its Star: " + formatSI(d.major/3000) + " au");
+			d3.select("#tooltip-period").html("Has been online for: " + formatSI(d.period) + " days");
+			d3.select("#tooltip-eccen").html("Status: Online");
+			//d3.select("#tooltip-radius").html("Radius of planet: " + formatSI(d.Radius * 11.209 ) + " Earth radii");
+			//d3.select("#tooltip-dist").html("Approx. distance to its Star: " + formatSI(d.major/3000) + " au");
 		}//showTooltip	
